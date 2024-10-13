@@ -12,7 +12,7 @@ const NavBar = () => {
         setIsOpen(false)
     }
     const handleScroll = () =>{
-        const sections = ['accueil', 'infos', 'events', 'programs', 'contact']
+        const sections = ['accueil', 'infos', 'contact']
         const scrollPosition = window.scrollY + 100
 
         sections.forEach(section =>{
@@ -71,33 +71,7 @@ const NavBar = () => {
                         handleScrollTo('infos')
                     }}
                     href="#infos" className={`text-[#FFF8DC] ${activeSection === 'infos' ? 'isActive' : ''}`}>
-                    Infos
-                </motion.a>
-            </li>
-            <li>
-                <motion.a 
-                    whileHover={{scale: 1.1}} 
-                    whileTap={{scale: 0.9}}
-                    onClick={(e) => {
-                        e.preventDefault()
-                        handleCloseMenu()
-                        handleScrollTo('events')
-                    }}
-                    href="#events" className={`text-[#FFF8DC] ${activeSection === 'events' ? 'isActive' : ''}`}>
-                    Événements
-                </motion.a>
-            </li>
-            <li>
-                <motion.a 
-                    whileHover={{scale: 1.1}} 
-                    whileTap={{scale: 0.9}}
-                    onClick={(e) => {
-                        e.preventDefault()
-                        handleCloseMenu()
-                        handleScrollTo('programs')
-                    }}
-                    href="#programs" className={`text-[#FFF8DC] ${activeSection === 'programs' ? 'isActive' : ''}`}>
-                    Programmes
+                    Information
                 </motion.a>
             </li>
             <li>
@@ -109,7 +83,8 @@ const NavBar = () => {
                         handleCloseMenu()
                         handleScrollTo('contact')
                     }}
-                    href="#contact" className={`text-[#FFF8DC] ${activeSection === 'contact' ? 'isActive' : ''}`}>
+                    href="#contact" 
+                    className={`text-[#FFF8DC] ${activeSection === 'contact' ? 'isActive' : ''}`}>
                     Contact
                 </motion.a>
             </li>
@@ -117,7 +92,7 @@ const NavBar = () => {
     )
 
   return (
-    <header className='bg-heroBg text-white py-6 px-4 fixed top-0 left-0 right-0 z-10'>
+    <header className='bg-heroBg text-white py-2 px-4 fixed top-0 left-0 right-0 z-10'>
         <div className='container xm-auto flex justify-between items-center h-full'>
             {/* logo */}
             <div className='text-white text-lg font-semibold'>
@@ -125,7 +100,7 @@ const NavBar = () => {
                     e.preventDefault()
                     handleCloseMenu()
                 }}>
-                <img src="/logo_crcs_white.svg" alt="crcs logo" width={150} height={60}/>
+                <img src="/logo_crcs_white.svg" alt="crcs logo" className='w-90 h-auto'/>
                 <p className='font-secondary font-light text-[6px] mt-[-15.4px] text-[#FFF8DC]'>Centre de Recherche et de Culture Scientifiques</p>
                 </a>
             </div>
