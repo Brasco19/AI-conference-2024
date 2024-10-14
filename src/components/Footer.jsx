@@ -49,7 +49,7 @@ const Footer = () => {
             </li>
             <li className='flex'>
               <FaEnvelope className='text-primary'/>
-              <p className='text-[#333] text-[12px] pl-2'>Email: info@crcs.ga</p>
+              <p className='text-[#333] text-[12px] pl-2'>Email: infos@crcs.ga</p>
             </li>
           </ul>
         </div>
