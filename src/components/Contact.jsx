@@ -78,7 +78,7 @@ const Contact = () => {
         {/* right side */}
         <motion.div className='space-y-8 p-8 bg-[#f0f4f9] shadow-xl rounded-md text-[#333]' variants={fadeIn('left', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}>
           <form onSubmit={onSubmit}>
-            <h3 className='text-2xl font-bold mb-4'>Restez informer</h3>
+            <h3 className='text-2xl font-bold mb-4'>Envoyez nous un message</h3>
             <div className='input-box'>
               <label className='text-16px font-light text-[#333]'>Nom et/ou Pseudo</label>
               <input type="text" className='field text-16px font-light text-[#333]' placeholder='Veillez indiquer votre nom' name='name' required/>
