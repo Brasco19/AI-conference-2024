@@ -5,7 +5,7 @@ import { FaEnvelope, FaFacebookF, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTiktok,
 const Footer = () => {
   return (
     <div className='py-12 bg-gray-100 px-2'>
-      <div className='container mx-auto flex items-center justify-between gap-8'>
+      <div className='container mx-auto flex items-center justify-between gap-8 sm:flex sm:flex-col'>
         <div className='space-y-2 mr-2'>
           <div className='flex flex-col space-x-2 items-start'>
             <img src={footerLogo} alt="" className='w-32 h-auto' />
