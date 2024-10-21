@@ -11,7 +11,7 @@ const Infos = () => {
         <motion.div className='text-center space-y-5' variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}>
           <h2 className='text-4xl font-bold font-secondary text-heroBg'>Information</h2>
           <p className='md:w-1/2 mx-auto text-left text-[14px] text-[#333] font-extralight'>
-           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance (zoom/googleMeet), le <span className='font-semibold'>16 Novembre 2024</span>.
+           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance (zoom/googleMeet), le <span className='font-semibold'>23 Novembre 2024</span>.
           </p>
         </motion.div>
 
