@@ -53,7 +53,7 @@ const Infos = () => {
                     Analyse des données avec le logociel R, <span className='font-semibold'>Saidou MAHMOUDOU (Said)</span>
                   </li>
                   <li className='font-light text-[16px]'>
-                    Modélisation de Réactions Chimiques sur un Ordinateur Quantique, <span className='font-semibold'>EBANG ELLA (Brasco)</span>
+                    Une Methode de Machine Learning Pour Analyse de Risque de Defaut et les Fluctuations de Revenus, <span className='font-semibold'>EBANG ELLA (Brasco)</span>
                   </li>
                 </ul>
               </motion.div>
