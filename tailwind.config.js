@@ -11,7 +11,7 @@ export default {
         'secondary': ["Montserrat", 'sans-serif']
       },
       colors:{
-        'heroBg' : '#03315c',
+        'heroBg' : '#266879',
         'para': 'rgb(0 0 / 80%)',
         'primary' : '#e8bb45'
       }
