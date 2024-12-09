@@ -47,8 +47,8 @@ const Infos = () => {
               <motion.div 
               variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
-                <div className="justify-center items-center gap-3">
-                  <div className="">
+                <div className="flex flex-col justify-center items-center gap-4">
+                  <div className="mb-8">
                     <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Données Relatives à la Tuberculose au Gabon avec R </h5>
                     <p className="">
                       <span className='font-bold'>Résume: </span> Selon les estimations de l'Organisation mondial de la santé (OMS), au Gabon 
