@@ -49,7 +49,7 @@ const Infos = () => {
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
                 <div className="">
                   <div className="">
-                    <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Donnee Relatives a la Tuberculose au Gabon avc R </h5>
+                    <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Données Relatives à la Tuberculose au Gabon avec R </h5>
                     <p className="">
                       <span className='font-bold'>Resume: </span> Selon les estimations de l'Organisation mondial de la santé (OMS), au Gabon 
                       l'incidence de la tuberculose (TB) toutes formes et des rechutes était de 521 cas pour 100 000 habitant.e.s en 2019. 
