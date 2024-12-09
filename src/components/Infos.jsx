@@ -49,13 +49,13 @@ const Infos = () => {
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
                 <div className="">
                   <div className="">
-                    <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 1 </h3>
+                    <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 1 </h5>
                     <p className="">
                       Lorem
                     </p>
                   </div>
                   <div className="">
-                    <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 2 </h3>
+                    <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 2 </h5>
                     <p className="">
                       Lorem
                     </p>
