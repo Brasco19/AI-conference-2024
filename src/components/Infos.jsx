@@ -11,7 +11,7 @@ const Infos = () => {
         <motion.div className='text-center space-y-5' variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}>
           <h2 className='text-4xl font-bold font-secondary text-heroBg'>Information</h2>
           <p className='md:w-1/2 mx-auto text-left text-[14px] text-[#333] font-extralight'>
-           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance (zoom/googleMeet), le <span className='font-semibold'>23 Novembre 2024</span>.
+           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance (zoom/googleMeet), le <span className='font-semibold'>21 Decembre 2024</span>.
           </p>
         </motion.div>
 
@@ -47,15 +47,20 @@ const Infos = () => {
               <motion.div 
               variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
-                <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Exposants</h3>
-                <ul className='list-inside space-y-3 list-disc'>
-                  <li className='font-light text-[16px]'>
-                    Analyse des données avec le logociel R, <span className='font-semibold'>Saidou MAHMOUDOU (Said)</span>
-                  </li>
-                  <li className='font-light text-[16px]'>
-                    Une Méthode de Machine Learning Pour Analyse de Risque de Défaut et les Fluctuations de Revenus, <span className='font-semibold'>EBANG ELLA (Brasco)</span>
-                  </li>
-                </ul>
+                <div className="">
+                  <div className="">
+                    <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 1</h3>
+                    <p className="">
+                      Lorem
+                    </p>
+                  </div>
+                  <divclassName="">
+                    <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 2</h3>
+                    <pclassName="">
+                      Lorem
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             </TabPanel>
 
