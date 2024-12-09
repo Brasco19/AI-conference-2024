@@ -47,7 +47,7 @@ const Infos = () => {
               <motion.div 
               variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
-                <div className="">
+                <div className="justify-center items-center gap-3">
                   <div className="">
                     <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Données Relatives à la Tuberculose au Gabon avec R </h5>
                     <p className="">
@@ -60,7 +60,7 @@ const Infos = () => {
                     </p>
                   </div>
                   <div className="">
-                    <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Modèle d'Intelligence Artificielle Générative: Modèle de Diffusion </h5>
+                    <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Comprendre les Modèles d'Intelligence Artificielle Générative: Case du Modèle de Diffusion </h5>
                     <p className="">
                       <span className='font-bold'>Résume: </span>
                       L’IA générative se distingue par sa capacité à créer et à innover, par opposition à la simple analyse ou à la classification. 
