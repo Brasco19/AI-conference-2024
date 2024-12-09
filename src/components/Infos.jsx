@@ -54,7 +54,7 @@ const Infos = () => {
                       <span className='font-bold'>Resume: </span> Selon les estimations de l'Organisation mondial de la santé (OMS), au Gabon 
                       l'incidence de la tuberculose (TB) toutes formes et des rechutes était de 521 cas pour 100 000 habitant.e.s en 2019. 
                       Au cours de cette année, le Programme national de lutte contre la tuberculose a déclaré 5399 nouveaux 
-                      cas et rechutes pour un total de cas déclarés de 5573.</br>
+                      cas et rechutes pour un total de cas déclarés de 5573.
 
                       Nous allons présenter un aperçu de l'évolution de la tuberculose au Gabon entre 2018 et 2022, en utilisant les données disponibles que nous avons.
                     </p>
