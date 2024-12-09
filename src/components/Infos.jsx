@@ -56,7 +56,7 @@ const Infos = () => {
                   </div>
                   <div className="">
                     <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 2</h3>
-                    <pclassName="">
+                    <p className="">
                       Lorem
                     </p>
                   </div>
