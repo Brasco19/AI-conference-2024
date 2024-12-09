@@ -51,7 +51,7 @@ const Infos = () => {
                   <div className="">
                     <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Données Relatives à la Tuberculose au Gabon avec R </h5>
                     <p className="">
-                      <span className='font-bold'>Resume: </span> Selon les estimations de l'Organisation mondial de la santé (OMS), au Gabon 
+                      <span className='font-bold'>Résume: </span> Selon les estimations de l'Organisation mondial de la santé (OMS), au Gabon 
                       l'incidence de la tuberculose (TB) toutes formes et des rechutes était de 521 cas pour 100 000 habitant.e.s en 2019. 
                       Au cours de cette année, le Programme national de lutte contre la tuberculose a déclaré 5399 nouveaux 
                       cas et rechutes pour un total de cas déclarés de 5573.
@@ -60,9 +60,16 @@ const Infos = () => {
                     </p>
                   </div>
                   <div className="">
-                    <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Title 2 </h5>
+                    <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Modèle d'Intelligence Artificielle Générative: Modèle de Diffusion </h5>
                     <p className="">
-                      Lorem
+                      <span className='font-bold'>Résume: </span>
+                      L’IA générative se distingue par sa capacité à créer et à innover, par opposition à la simple analyse ou à la classification. 
+                      Les progrès dans ce domaine ont conduit à des percées dans des domaines créatifs et des applications pratiques, 
+                      ce qui en fait un domaine de pointe de la recherche et du développement de l’IA."\n"
+
+                      Depuis 2024, les modèles de diffusion sont principalement utilisés pour les tâches de vision par ordinateur, notamment le débruitage d'images,
+                      l'inpainting, la super-résolution, la génération d'images et la génération de vidéos. 
+                      Celles-ci impliquent généralement la formation d'un réseau neuronal pour débruiter séquentiellement les images floues avec le bruit gaussien.
                     </p>
                   </div>
                 </div>
