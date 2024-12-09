@@ -65,7 +65,7 @@ const Infos = () => {
                       <span className='font-bold'>Résume: </span>
                       L’IA générative se distingue par sa capacité à créer et à innover, par opposition à la simple analyse ou à la classification. 
                       Les progrès dans ce domaine ont conduit à des percées dans des domaines créatifs et des applications pratiques, 
-                      ce qui en fait un domaine de pointe de la recherche et du développement de l’IA.</br>
+                      ce qui en fait un domaine de pointe de la recherche et du développement de l’IA.
 
                       Depuis 2024, les modèles de diffusion sont principalement utilisés pour les tâches de vision par ordinateur, notamment le débruitage d'images,
                       l'inpainting, la super-résolution, la génération d'images et la génération de vidéos. 
