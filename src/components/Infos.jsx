@@ -60,7 +60,7 @@ const Infos = () => {
                     </p>
                   </div>
                   <div className="">
-                    <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Comprendre les Modèles d'Intelligence Artificielle Générative: Case du Modèle de Diffusion </h5>
+                    <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Comprendre les Modèles d'Intelligence Artificielle Générative: Cas du Modèle de Diffusion </h5>
                     <p className="">
                       <span className='font-bold'>Résume: </span>
                       L’IA générative se distingue par sa capacité à créer et à innover, par opposition à la simple analyse ou à la classification. 
