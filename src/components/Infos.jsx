@@ -11,7 +11,9 @@ const Infos = () => {
         <motion.div className='text-center space-y-5' variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}>
           <h2 className='text-4xl font-bold font-secondary text-heroBg'>Information</h2>
           <p className='md:w-1/2 mx-auto text-left text-[14px] text-[#333] font-extralight'>
-           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance (zoom/googleMeet), le <span className='font-semibold'>21 Decembre 2024</span>.
+           Le <span className='font-semibold'>Centre de Recherche et Culture Scientifique (CRCS)</span> a le plaisir de vous inviter à la 2ème 
+            <span className='font-semibold'>Conference sur les Applicattions de L'Intellicence Artificielle en Sciences(CAIAS)</span>, qui se tiendra à distance 
+            (zoom/googleMeet), le <span className='font-semibold'>21 Decembre 2024, à 10h (heure de Libreville, Gabon)</span>.
           </p>
         </motion.div>
 
@@ -47,6 +49,7 @@ const Infos = () => {
               <motion.div 
               variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
+                <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Exposée</h3>
                 <div className="flex flex-col justify-center items-center gap-4">
                   <div className="mb-8">
                     <h5 className='text-2xl font-semibold text-heroBg mb-4 items-center'>Analyse des Données Relatives à la Tuberculose au Gabon avec R </h5>
