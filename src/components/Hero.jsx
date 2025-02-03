@@ -15,7 +15,7 @@ const Hero = () => {
               Pour Celles et Ceux qui souhaitent exposer, un formulaire est disponible afin de fournir les informations de l'exposé.
             </p>
             <button className='bg-primary text-[#FFF8DC] py-3.5 px-8 font-light rounded-md hover:bg-primary/90'>
-              <a href="https://meet.google.com/fxu-pzfy-nqv" className='flex gap-1 items-center'>
+              <a href="https://meet.google.com/jwm-htci-jup" className='flex gap-1 items-center'>
                 <span>Lien google meet</span>
               <IoArrowForwardCircleSharp />
                 </a>
