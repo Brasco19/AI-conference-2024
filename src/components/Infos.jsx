@@ -87,9 +87,6 @@ const Infos = () => {
                 <h3 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Comité d'organisation</h3>
                 <ul className='list-inside space-y-3 list-disc'>
                   <li className='font-light'>
-                    <span className='font-semibold'>Asseko Ella (Le Cheik Oumar)</span>
-                  </li>
-                  <li className='font-light'>
                     <span className='font-semibold'>Engouang Mve</span>
                   </li>
                 </ul>
