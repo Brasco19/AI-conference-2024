@@ -66,7 +66,6 @@ const Infos = () => {
                   
                   Dans cet exposé on essaye de comprendre un aperçu complet des avancées actuelles dans l'applications de l'IA pour la surveillance, les méthodes de détection rapide, de transmission, de propagation, les antibiotiques et
                   découverte de candidats infectés, gestion de la RAM, partage de données et collaboration ainsi que des analyses prédictives qui contribuent toutes à la prévention et au contrôle des maladies infectieuses.
-                  maladies.
                 </p>
               </motion.div>
             </TabPanel>
