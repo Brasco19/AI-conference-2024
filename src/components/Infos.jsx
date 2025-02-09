@@ -50,10 +50,23 @@ const Infos = () => {
               <motion.div 
               variants={fadeIn('up', 0.2)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}}
                 className='flex flex-col items-center justify-center bg-[#e5eaee] rounded-lg p-12 font-secondary mx-auto'>
-                <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>Pas disponible pour le moment! </h5>
+                <h5 className='text-3xl font-semibold text-heroBg mb-4 items-center'>
+                  Modélisation de Réseau de Transmission des Maladies Infectieuses: Cas de la Tuberculose au Gabon 
+                </h5>
                 <p className="">
                   <span className='font-bold'>Résume: </span>  
-                  Pas disponible pour le moment!
+                  La surveillance et la détection précoce des maladies infectieuses sont essentielles à la prévention. Certaines maladies transmissibles constituent une menace importante pour la santé humaine.
+                  une mortalité et une morbidité élevées, comme en témoigne l'épidemié de tuberculose au Gabon.
+                  
+                  Les progrès des applications d’intelligence artificielle (IA) facilitent la détection précoce
+                  et la surveillance des maladies infectieuses imanentes qui contribuent à atténuer le risque.
+                  De plus, la résistance aux antimicrobiens (RAM) et l'épidémie silencieuse actuelle 
+                  constituent une menace critique pour la santé publique. Les progrès de l’IA fournissent des solutions et des algorithmes qui facilitent la surveillance de la propagation et la découverte de nouveaux antibiotiques
+                  thérapeutiques. 
+                  
+                  Dans cet exposé on essaye de comprendre un aperçu complet des avancées actuelles dans l'applications de l'IA pour la surveillance, les méthodes de détection rapide, de transmission, de propagation, les antibiotiques et
+                  découverte de candidats infectés, gestion de la RAM, partage de données et collaboration ainsi que des analyses prédictives qui contribuent toutes à la prévention et au contrôle des maladies infectieuses.
+                  maladies.
                 </p>
               </motion.div>
             </TabPanel>
