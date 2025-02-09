@@ -91,7 +91,7 @@ const Contact = () => {
               <label className='text-16px font-light text-[#333]'>Message</label>
               <textarea className='field mess ' name='message' placeholder='Veillez saisir votre message' required/>
             </div>
-            <button type='submit' className='btn p-4'>Envoyer</button>
+            <button type='submit' className='btn'>Envoyer</button>
           </form>
         </motion.div>
         </div>
